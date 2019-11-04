@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">ContactBook</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_contact_view">ContactView</string>
+
+    <style name="editText">
+        <item name="android:layout_width"> 350dp </item>
+        <item name="android:layout_height"> 40dp </item>
+        <item name="android:textColorHint"> #5F5F5F </item>
+        <item name="android:textColor"> #fff </item>
+        <item name="android:textSize"> 17dp </item>
+        <item name="android:background"> @drawable/background_edittext </item>
+        <item name="android:paddingLeft"> 15dp </item>
+    </style>
+
+    <string-array name="studentName">
+        <item> Rakebun Nobi </item>
+        <item> Sumiya Khatun </item>
+        <item> Al Murad Sheikh </item>
+        <item> MD Emam Hossain </item>
+        <item> Sohel Hossain </item>
+        <item> Aney  </item>
+        <item> Tanmoy Debnath </item>
+        <item> Kazi Saddikul islam </item>
+        <item> Mohibullah Alam </item>
+        <item> Kripamoy Shil </item>
+        <item> Jotirmoy Sarkar </item>
+        <item> Rakibul Islam Palash </item>
+        <item> Sahidul Islam </item>
+        <item> Jannatul Ferdous Asha </item>
+        <item> Rasel Ahmed </item>
+        <item> Ajizul Karim Ajaz </item>
+        <item> Hridoy Sheikh </item>
+        <item> Honjurul Hasan </item>
+        <item> Partha Mozumder </item>
+        <item> SK Rakibul Islam </item>
+        <item> Rifat Hossain </item>
+        <item> Mahmuda Khanom Juthi </item>
+        <item> MD AL-Amin </item>
+        <item> AL Mamun Khondoker </item>
+        <item> Hasibul Alam Hasib </item>
+        <item> Selim Sheikh </item>
+        <item> Saiful Islam </item>
+        <item> Sauran Kumar Das </item>
+        <item> Tuhin Hawlader </item>
+        <item> Tanvir Raihan Pranto </item>
+        <item> Alok Roy </item>
+        <item> Basudev Biswas </item>
+    </string-array>
+
+</resources>
+
+
