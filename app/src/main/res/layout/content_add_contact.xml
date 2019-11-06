@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".AddContact"
+android:orientation="vertical"
+android:gravity="center"
+android:background="#000">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Save to Phone"
+    android:textStyle="bold"
+    android:textSize="30sp"
+    android:textColor="#fff"
+    android:layout_marginBottom="30dp" />
+
+<EditText
+    android:id="@+id/name_EditText_id"
+    android:hint="Name"
+    style="@style/editText"
+    android:layout_marginBottom="5dp"/>
+
+<EditText
+    android:id="@+id/phone1_EditText_id"
+    android:hint="Phone"
+    android:inputType="number"
+    style="@style/editText"
+    android:layout_marginBottom="5dp"/>
+
+<EditText
+    android:id="@+id/phone2_EditText_id"
+    android:hint="* Phone"
+    android:inputType="number"
+    style="@style/editText"
+    android:layout_marginBottom="5dp"/>
+
+<EditText
+    android:id="@+id/phone3_EditText_id"
+    android:hint="* Phone"
+    android:inputType="number"
+    style="@style/editText"
+    android:layout_marginBottom="5dp"/>
+
+<EditText
+    android:id="@+id/email_EditText_id"
+    android:hint="Email"
+    style="@style/editText"
+    android:layout_marginBottom="30dp"/>
+
+
+</LinearLayout>

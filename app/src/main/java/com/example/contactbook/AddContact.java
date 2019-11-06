@@ -4,14 +4,17 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 public class AddContact extends AppCompatActivity {
 
     private EditText nameEditText, phone1EditText, phone2EditText, phone3EditText, emilEditText;
-    private Button saveButton;
+    private FloatingActionButton floatingActionButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,9 +26,9 @@ public class AddContact extends AppCompatActivity {
         phone2EditText = findViewById(R.id.phone2_EditText_id);
         phone3EditText = findViewById(R.id.phone3_EditText_id);
         emilEditText = findViewById(R.id.email_EditText_id);
-        saveButton = findViewById(R.id.save_Button_id);
+        floatingActionButton = findViewById(R.id.fab);
 
-        saveButton.setOnClickListener(new View.OnClickListener() {
+        floatingActionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String name = nameEditText.getText().toString();

@@ -6,22 +6,58 @@
     android:layout_height="match_parent"
     tools:context=".Details"
     android:orientation="vertical"
-    android:gravity="center"
-    android:background="#000000">
+    android:background="#000000"
+    android:padding="20dp">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/name_TextView_id"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Details"
+        android:text="Farhan islam"
         android:textStyle="bold"
         android:textColor="#fff"
-        android:textSize="40dp" />
-
+        android:textSize="25dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="40dp"/>
+    <!--
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/name_TextView_id"
         android:text="Farhan Islam"
-        android:textColor="@color/colorAccent"
-        android:textSize="18dp" />
+        style="@style/textView_Details"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#757575"/>-->
+    <TextView
+        android:id="@+id/gmail_TextView_id"
+        android:text="farhanislam910@gmail.com"
+        style="@style/textView_Details"
+        android:drawableRight="@drawable/gmail_icon"/>
+
+    <View
+        style="@style/view_Details_Style"/>
+    <TextView
+        android:id="@+id/phone1_TextView_id"
+        android:text="01715309242"
+        style="@style/textView_Details"/>
+
+    <View
+        style="@style/view_Details_Style"/>
+    <TextView
+        android:id="@+id/phone2_TextView_id"
+        android:text="01885929987"
+        style="@style/textView_Details"/>
+
+    <View
+        style="@style/view_Details_Style"/>
+    <TextView
+        android:id="@+id/phone3_TextView_id"
+        android:text="01838590752"
+        style="@style/textView_Details"/>
+
+    <View
+        style="@style/view_Details_Style"/>
 
 </LinearLayout>

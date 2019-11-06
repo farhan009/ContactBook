@@ -1,16 +1,31 @@
 <resources>
     <string name="app_name">ContactBook</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_contact_view">ContactView</string>
+    <string name="title_activity_contact_view">Contact</string>
 
     <style name="editText">
         <item name="android:layout_width"> 350dp </item>
         <item name="android:layout_height"> 40dp </item>
-        <item name="android:textColorHint"> #5F5F5F </item>
+        <item name="android:textColorHint">#252525</item>
         <item name="android:textColor"> #fff </item>
         <item name="android:textSize"> 17dp </item>
         <item name="android:background"> @drawable/background_edittext </item>
         <item name="android:paddingLeft"> 15dp </item>
+    </style>
+
+    <style name="textView_Details">
+        <item name="android:layout_width"> match_parent </item>
+        <item name="android:layout_height"> 50dp </item>
+        <item name="android:textColor">#545870</item>
+        <item name="android:textSize"> 16dp </item>
+        <item name="android:gravity"> center_vertical </item>
+        <item name="android:drawableRight">@drawable/phone_icon</item>
+    </style>
+
+    <style name="view_Details_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#0F0F0F</item>
     </style>
 
     <string-array name="studentName">
@@ -49,5 +64,6 @@
     </string-array>
 
 </resources>
+
 
 
